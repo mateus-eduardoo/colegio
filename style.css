@@ -16,7 +16,14 @@ header .links{
   
 
 }
+li{
+    list-style: none;
+}
 header .links li{
     list-style: none;
     margin: 0 15px;
+}
+header .topo{
+    display: flex;
+    justify-content: space-between;
 }
