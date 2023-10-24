@@ -36,7 +36,7 @@ header a{
 }
 .buscar{
     color:rgb(22, 165, 248);
-    margin-left:110px;
+    margin-left:20px;
     margin-top:10px;
 }
 header .code{
@@ -45,12 +45,22 @@ header .code{
     padding-right:3px;
     list-style:none;
     justify-content:space-between;
-    margin-top:-180px;
-    margin-left:400px;
+    margin-top:-160px;
+    margin-left:280px;
     
 }
 ul{
-flex-direction:wrap;
-
+    flex-direction: wrap;
 }
+div.conteiner{
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid black;
+    width: 700px;
 
+  
+}
+div.conteiner> a{
+    color: orange;
+}
