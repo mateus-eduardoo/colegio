@@ -1,43 +1,56 @@
+
+
 *{
-    margin: 0;
-    padding:0;
- }
- header{
-      height: 300px;
-      border:1px solid red;
- }
- .content{
-     width: 1100px;
-     margin: 0 auto;
-     border: 1px solid blue;
- }
- header .links{
-     display: flex;
-   
- 
- }
- li{
-     list-style: none;
- }
- header .links li{
-     list-style: none;
-     margin: 0 15px;
- }
- header .topo{
-     display: flex;
-     justify-content: space-between;
- }
- .portal{
-    color: orange;
-    text-decoration: none;
- }
- .tel{
-    color: blue;
- }
- .busca{
-    color: blue;
- }
-#menu2{
-    margin-top: 20px;
+    margin:0; 
+}
+header{
+    height:300px;
+    border:1px solid red;
+}
+.content{
+    width:1100px;
+    margin:0 auto;
+    border:1px solid blue
+}
+header .links ul{
+    display:flex;
+}
+.topo{
+  
+    font-size:23px;
+}
+header .links li{
+    list-style:none;
+    margin:10px 15px;
+}
+header .topo{
+    display:flex;
+    justify-content: space-between;
+}
+header a{
+    color:rgb(22, 165, 248);
+    text-decoration:none;
+}
+.teste{
+    color:orange;
+}
+.buscar{
+    color:rgb(22, 165, 248);
+    margin-left:110px;
+    margin-top:10px;
+}
+header .code{
+    display:flex;
+    font-size:20px;
+    padding-right:3px;
+    list-style:none;
+    justify-content:space-between;
+    margin-top:-180px;
+    margin-left:400px;
     
 }
+ul{
+flex-direction:wrap;
+
+}
+
