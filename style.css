@@ -32,6 +32,23 @@ header .links li{
 
 }
 
+div.logo{
+    margin-bottom: 30px;
+    padding: 10px 0 0 30px;
+    z-index: 2;
+    
+}
+div#sobrepondo{
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    height: 130px;
+    margin-bottom: 25px;
+    margin-top: 101px;
+    margin-left: -250px;
+    border-radius: 0px 9px 10px 2px;
+    transform: rotate(44deg);
+}
 
 header .topo{
     display:flex;
@@ -61,41 +78,89 @@ header .code{
     justify-content:space-between;
     margin-top:-180px;
     margin-left:292px;
-    
 }
 ul{
     flex-direction: wrap;
 }
-div.conteiner{
-    margin: auto;
-    text-align: center;
-    background-color: white;
-    box-shadow: -1px -1px 5px white;
-    width: 620px;
-    margin-left: 606px;
-    margin-top: -108px;
-    border-radius: 20px 20px 0 0 ;
+
+section#secao2{
+  
+   
+}
+div.ensinfantil{
+    width: 100px;
+    
+    width: 200px;
+    height: 109px;
+    padding-left: 740px;
+    margin-top: -100px ;
+}
+div#imginfantil > img{
+    float: left;
+    padding: 5px;
+    height: 85px;
+    
     
 
-  
 }
-#ef{
-    color: rgb(68, 68, 190);
+div#linlkinfanil > ul{
+    list-style-type: none;
+    padding-top: 30px;
 }
-#em{
-    color: rgb(16, 184, 184);
-}
-div.conteiner>img{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-div.conteiner> a{
-    font-weight: lighter;
-    font-size: 19px;
+div#linlkinfanil ul>li > a{
+    font-variant: small-caps;
+    padding-left: 5px;
+    color:rgb(255, 186, 57);
     
-    padding-bottom: 20px;
-    padding-left: 10px;
-    
-    
+    font-size: 20px;
     
 }
+
+
+div.ensfundamental{
+    
+    height: 100px;
+    padding-left: 160px;
+    margin-top: -100px ;
+}
+div#imgfundamental  img{
+    float: left;
+    padding: 5px;
+    height: 85px;
+}
+div#linlkfundamental > ul{
+    list-style-type: none;
+    padding-top: 54px;
+}
+div#linlkfundamental ul>li > a{
+    color:rgb(25, 25, 233);;
+    padding-left: 5px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+
+div.ensmedio{
+     background-color: white;
+     border-radius: 20px 20px 0 0 ;
+     width: 129px;
+    height: 120px;
+    padding-left: 198px;
+    margin-top: -100px ;
+}
+div#imgmedio  img{
+    float: left;
+    padding: 5px;
+    height: 85px;
+}
+div#linlkmedio > ul{
+    list-style-type: none;
+    padding-top: 55px;
+}
+div#linlkmedio ul>li > a{
+    color:rgb(25, 25, 233);;
+    padding-left: 5px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
