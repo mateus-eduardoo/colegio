@@ -1,171 +1,3 @@
-
-
-*{
-    margin:0; 
-}
-header{
-    height:300px;
-    border:1px solid red;
-}
-
-.content{
-    background-color: rgb(169, 169, 169);
-    width:1100px;
-    margin:0 auto;
-    border:1px solid blue
-}
-header .links ul{
-    display:flex;
-    
-}
-.topo{
-  
-    font-size:23px;
-}
-#tel{
-    color: rgb(54, 54, 255);
-}
-header .links li{
-    list-style:none;
-    margin:10px 15px ;
-    padding-right: 20px;
-
-}
-
-div.logo{
-    margin-bottom: 30px;
-    padding: 10px 0 0 30px;
-    z-index: 2;
-    
-}
-div#sobrepondo{
-    z-index: 1;
-    background-color: white;
-    width: 100px;
-    height: 130px;
-    margin-bottom: 25px;
-    margin-top: 101px;
-    margin-left: -250px;
-    border-radius: 0px 9px 10px 2px;
-    transform: rotate(44deg);
-}
-
-header .topo{
-    display:flex;
-    justify-content: space-between;
-}
-header a{
-    color:rgb(22, 165, 248);
-    text-decoration:none;
-}
-.teste{
-    color:rgb(255, 186, 57);
-}
-.buscar{
-    color:blue;
-    margin-left:18px;
-    margin-top:10px;
-}
-.code a{
-    color:rgb(25, 25, 233);
-}
-header .code{
-    
-    display:flex;
-    font-size:20px;
-    padding-right:3px;
-    list-style:none;
-    justify-content:space-between;
-    margin-top:-180px;
-    margin-left:292px;
-}
-ul{
-    flex-direction: wrap;
-}
-
-section#secao2{
-  
-   
-}
-div.ensinfantil{
-    width: 100px;
-    
-    width: 200px;
-    height: 109px;
-    padding-left: 740px;
-    margin-top: -100px ;
-}
-div#imginfantil > img{
-    float: left;
-    padding: 5px;
-    height: 85px;
-    
-    
-
-}
-div#linlkinfanil > ul{
-    list-style-type: none;
-    padding-top: 30px;
-}
-div#linlkinfanil ul>li > a{
-    font-variant: small-caps;
-    padding-left: 5px;
-    color:rgb(255, 186, 57);
-    
-    font-size: 20px;
-    
-}
-
-
-div.ensfundamental{
-    
-    height: 100px;
-    padding-left: 160px;
-    margin-top: -100px ;
-}
-div#imgfundamental  img{
-    float: left;
-    padding: 5px;
-    height: 85px;
-}
-div#linlkfundamental > ul{
-    list-style-type: none;
-    padding-top: 54px;
-}
-div#linlkfundamental ul>li > a{
-    color:rgb(25, 25, 233);;
-    padding-left: 5px;
-    font-variant: small-caps;
-    font-size: 20px;
-}
-
-
-div.ensmedio{
-     background-color: white;
-     border-radius: 20px 20px 0 0 ;
-     width: 129px;
-    height: 120px;
-    padding-left: 198px;
-    margin-top: -100px ;
-}
-div#imgmedio  img{
-    float: left;
-    padding: 5px;
-    height: 85px;
-}
-div#linlkmedio > ul{
-    list-style-type: none;
-    padding-top: 55px;
-}
-div#linlkmedio ul>li > a{
-    color:rgb(25, 25, 233);;
-    padding-left: 5px;
-    font-variant: small-caps;
-    font-size: 20px;
-}
-
-SEGUNDO SITE:
-
 *{
     margin: 0;
     max-width: 200vw;
@@ -222,19 +54,20 @@ SEGUNDO SITE:
  }
  nav >div#tel{
   color: blue;
-  font-size: 18px;
+  font-size: 1.5em;
   margin-left: -90px;
+  margin-top: 1%;
  }
  nav>div#links1 a{
    text-decoration: none;
    color: orangered;
-   font-size: 16px;
+   font-size: 1.5em;
    padding-left: 40px;
    margin-left: 80px;
    }
  div#links1{
   margin-left: 45px;
-  margin-top: -29px;
+  margin-top: -20px;
  }
  div#links1 ul{
   list-style-type: none;
@@ -246,14 +79,14 @@ SEGUNDO SITE:
 
    .lupa{
     color: blue;
-    margin-left: 770px;
+    margin-left: 1050px;
     font-size: 25px;
     margin-top: -20px;
    }
 
    #links2{
     padding-left: 20px;
-    margin-top:61px;
+    margin-top:50px;
    }
    #links2 ul{
     list-style-type: none;
@@ -266,11 +99,11 @@ SEGUNDO SITE:
    #links2 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.4em;
    }
    #conteiner{
-    margin-left: 800px;
-    margin-top: 50px;
+    margin-left: 930px;
+    margin-top: 53px;
     background-color: white;
     width: 440px;
     height: 110px;
@@ -298,7 +131,7 @@ SEGUNDO SITE:
    }
    #ei a{
     padding-left: 5px;
-    font-size: 17px;
+    font-size: 20px;
     text-decoration: none;
     
    }
@@ -335,3 +168,78 @@ SEGUNDO SITE:
     height: 300px;
      background-color: purple;
    }
+
+#news{
+  margin-left: 9%;
+   margin-top: 70px;
+}
+#news i{
+  color: #898fff;
+  padding-right: 3%;
+}
+
+#news p{
+  color:#6f77ff;
+  font-size: 2.2em;
+  
+}
+
+
+div#imgnews{
+  background-color: black;
+  background-image: url(culturadoPR2.png);
+  background-size: cover ;
+  background-position: top center;
+  width: 300px;
+  height: 200px;
+  
+}
+
+section{
+  width: 300px;
+  height: 360px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 5.5px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.556);
+  margin-top: 5%;
+  margin-left: 15%;
+}
+section>p{
+  padding-top: 4%;
+  padding-left: 6%;
+  font: 1.2em sans-serif;
+  color: black;
+  text-align: center;
+
+}
+div#titulonews{
+  margin-top: -3%;
+  margin-left: 9%;
+  background-color: rgb(83, 83, 255);
+  width: 83%;
+  border-radius: 5px;
+
+}
+div#titulonews a{
+  font-size: 1.2em;
+   color: white;
+   text-decoration: none;
+   padding-left: 35%;
+  }
+  div#saimaisnews{
+    background-color: rgb(83, 83, 255);
+      margin-left: 20%;
+      margin-top: 30px;
+      width: 60%;
+      height: 9%;
+      padding-top: 3%;
+      border-radius: 20px;
+
+  }
+  div#saimaisnews > a{
+      padding-left: 25%;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: white;
+  }
