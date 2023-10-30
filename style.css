@@ -3,10 +3,24 @@
     max-width: 200vw;
   }
   header{
-    background-image: linear-gradient(#F2F2F2,#dcdcdcbb,#050DA6);
+    background-color:#dcdcdcbb;
     height:270px ;
   }
-
+  main{
+    height: 500px;
+     background-color: black;
+     background-image: url(joaquimfundo.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: left center;
+   }
+  section{
+    background-color:#dcdcdcbb;
+  }
+ 
+  
+  
   #divpai{
    padding-left: 80px;
  
@@ -103,7 +117,7 @@
    }
    #conteiner{
     margin-left: 930px;
-    margin-top: 53px;
+    margin-top: 22.2px;
     background-color: white;
     width: 440px;
     height: 110px;
@@ -164,12 +178,9 @@
     text-decoration: none;
     padding-left: 5px;
    }
-   main{
-    height: 300px;
-     background-color: purple;
-   }
-
+  
 #news{
+  
   margin-left: 9%;
    margin-top: 70px;
 }
@@ -185,35 +196,45 @@
 }
 
 
-div#imgnews{
+
+
+
+
+
+
+
+
+
+
+div#imagemnews{
   background-color: black;
   background-image: url(culturadoPR2.png);
-  background-size: cover ;
+ background-size: cover ;
   background-position: top center;
   width: 300px;
   height: 200px;
   
 }
 
-section{
+#conteinernews{
+  margin-top: 4%;
+  margin-left: 15%;
   width: 300px;
   height: 360px;
   background-color: white;
   border: 5px solid white;
   border-radius: 5.5px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.556);
-  margin-top: 5%;
-  margin-left: 15%;
 }
-section>p{
-  padding-top: 4%;
+#conteinernews>p{
+  padding-top: 5%;
   padding-left: 6%;
-  font: 1.2em sans-serif;
   color: black;
   text-align: center;
+  font-size: 19px;
 
 }
-div#titulonews{
+div#titulo{
   margin-top: -3%;
   margin-left: 9%;
   background-color: rgb(83, 83, 255);
@@ -221,14 +242,16 @@ div#titulonews{
   border-radius: 5px;
 
 }
-div#titulonews a{
+div#titulo a{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
    color: white;
    text-decoration: none;
    padding-left: 35%;
+  
   }
-  div#saimaisnews{
-    background-color: rgb(83, 83, 255);
+  div#saimais{
+      background-color: rgb(83, 83, 255);
       margin-left: 20%;
       margin-top: 30px;
       width: 60%;
@@ -237,9 +260,140 @@ div#titulonews a{
       border-radius: 20px;
 
   }
-  div#saimaisnews > a{
+  div#saimais a{
+      
       padding-left: 25%;
       font-size: 1.2em;
       text-decoration: none;
       color: white;
   }
+
+  
+
+
+
+  div#imagem2{
+      background-color: black;
+      background-image: url(assembleia2.png);
+      background-size: cover ;
+      background-position: top center;
+      width: 300px;
+      height: 200px;
+      
+  }
+  
+  #conteinernews2{
+      margin-top: -22.1%;
+      margin-left: 45%;
+      width: 300px;
+      height: 360px;
+      background-color: white;
+      border: 5px solid white;
+      border-radius: 5.5px;
+      box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.556);
+  }
+  #conteinernews2>p{
+      padding-top: 5%;
+      padding-left: 6%;
+      color: black;
+      text-align: center;
+      font-size: 19px;
+  
+  }
+  div#titulo2{
+      margin-top: -3%;
+      margin-left: 9%;
+      background-color: rgb(83, 83, 255);
+      width: 83%;
+      border-radius: 5px;
+  
+  }
+  div#titulo2 a{
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+       color: white;
+       text-decoration: none;
+       padding-left: 35%;
+      }
+      div#saimais2{
+          background-color: rgb(83, 83, 255);
+          margin-left: 20%;
+          margin-top: 30px;
+          width: 60%;
+          height: 9%;
+          padding-top: 3%;
+          border-radius: 20px;
+  
+      }
+      div#saimais2 a{
+          
+          padding-left: 25%;
+          font-size: 1.2em;
+          text-decoration: none;
+          color: white;
+      }
+
+
+
+
+      div#imagem3{
+          background-color: black;
+          background-image: url(projetoinf2.jpg);
+          background-size: cover ;
+          background-position: top center;
+          width: 300px;
+          height: 200px;
+          
+      }
+      
+      #conteinernews3{
+          
+          margin-left: 75%;
+          margin-top: -22.1%;
+          width: 300px;
+          height: 360px;
+          background-color: white;
+          border: 5px solid white;
+          border-radius: 5.5px;
+          box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.556);
+      }
+      #conteinernews3>p{
+        font-size: 19px;
+          padding-top: 5%;
+          padding-left: 6%;
+          color: black;
+          text-align: center;
+      
+      }
+      div#titulo3{
+          margin-top: -3%;
+          margin-left: 9%;
+          background-color: rgb(202, 131, 0);
+          width: 83%;
+          border-radius: 5px;
+      
+      }
+      div#titulo3 a{
+        font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.2em;
+           color: white;
+           text-decoration: none;
+           padding-left:10%;
+          }
+          div#saimais3{
+              background-color: rgb(202, 131, 0);
+              margin-left: 20%;
+              margin-top: 50px;
+              width: 60%;
+              height: 9%;
+              padding-top: 3%;
+              border-radius: 20px;
+      
+          }
+          div#saimais3 a{
+              
+              padding-left: 25%;
+              font-size: 1.2em;
+              text-decoration: none;
+              color: white;
+          }
