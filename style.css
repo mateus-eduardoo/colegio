@@ -80,6 +80,9 @@
    padding-left: 40px;
    margin-left: 80px;
    }
+ #links1 a:hover{
+  text-decoration: underline;
+ }
  div#links1{
   margin-left: 45px;
   margin-top: -20px;
