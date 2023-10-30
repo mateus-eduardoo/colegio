@@ -99,6 +99,20 @@
     margin-top: -25px;
    }
 
+   #links2 a:hover{
+    background-color: rgb(149, 149, 255);
+    color: rgb(41, 41, 255);
+    width: 29px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px black;
+    
+   }
+   #links2 li:hover{
+    transform: translate(-2px, -2px);
+    transition-duration: .5s;
+    
+   }
+
    #links2{
     
     padding-left: px;
