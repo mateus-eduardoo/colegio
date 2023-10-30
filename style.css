@@ -473,7 +473,8 @@ div#titulo a{
           color: rebeccapurple;
           padding-right: 1.4%;
         }
-       
+         #lista2 a:hover , ul>li>a:hover{
+          text-decoration: underline;
        
         #lista2{
              margin-left: 66%;
