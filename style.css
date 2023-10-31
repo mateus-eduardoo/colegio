@@ -206,7 +206,8 @@
 #news{
   
   margin-left: 9%;
-   margin-top: 70px;
+   margin-top: 0px;
+   padding-top: 1%;
 }
 #news i{
   color: #898fff;
